@@ -1,3 +1,5 @@
+export const NFT_CONTRACT_ADDRESS = "0x17298649E2810C08DedFeEf77f06cD294A853337";
+export const TOKEN_CONTRACT_ADDRESS = "0xE93A0e3ED18eECc48082A86421aD8206fC3B09c3";
 export const NFT_CONTRACT_ABI = [
     {
         "inputs": [
@@ -21,7 +23,7 @@ export const NFT_CONTRACT_ABI = [
             {
                 "indexed": true,
                 "internalType": "address",
-                "name": "owner", git 
+                "name": "owner",
                 "type": "address"
             },
             {
@@ -580,8 +582,7 @@ export const NFT_CONTRACT_ABI = [
         "stateMutability": "payable",
         "type": "receive"
     }
-];
-export const NFT_CONTRACT_ADDRESS = "0x17298649E2810C08DedFeEf77f06cD294A853337";
+]
 export const TOKEN_CONTRACT_ABI = [
     {
         "inputs": [
@@ -1003,4 +1004,3 @@ export const TOKEN_CONTRACT_ABI = [
         "type": "receive"
     }
 ];
-export const TOKEN_CONTRACT_ADDRESS = "0x5894c1c207707840739B6cDCd098BdEd3493F063";
